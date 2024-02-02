@@ -36,9 +36,21 @@ h1, h2 {
     text-align: center;
     margin: auto;
     width: 50%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .hero h1 {
-    font-size: 50px;
+    font-size: 65px;
 }
+
+.hero h2 {
+    font-size: 40px;
+}
+
+/* DEV STACK */
+
+.dev-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
