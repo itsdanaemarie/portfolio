@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, p {
     font-family: "Inter";
     font-weight: normal;
     color: black;
@@ -27,7 +27,7 @@ h1, h2 {
 }
 
 .nav-menu li a:hover {
-    background-color: orangered;
+    background-color: purple;
 }
 
 /* HERO */
@@ -53,4 +53,36 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 100px;
 } 
+
+/* FEATURED PROJECTS */
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.featured {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featured-project {
+    max-width: 30%;
+    text-align: center;
+}
+
+.featured-project img{
+    width: 100%;
+    height: auto;
+}
+
+.featured-project img:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
