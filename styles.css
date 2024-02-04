@@ -141,3 +141,41 @@ p {
 .social-icons img:hover {
     transform: scale(.75);
 }
+
+/* FEATURED BLOGS*/
+
+.on-the-blog h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.blog {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog-entry {
+    max-width: 30%;
+    text-align: center;
+}
+
+.blog-entry img {
+    width: 100%;
+    height: 300px;
+}
+
+.blog-entry img:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
