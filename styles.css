@@ -179,3 +179,28 @@ p {
     transform: scale(1.2);
     transition-duration: 1s;
 }
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.company-name {
+    display: flex;
+    justify-content: center;
+}
+
+.company-name p {
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 0px;
+}
