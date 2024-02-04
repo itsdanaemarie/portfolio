@@ -115,4 +115,29 @@ p {
 .about p {
     width: 800px;
     margin: auto;
+    padding-bottom: 0px;
+}
+
+/* SOCIAL */
+
+.social {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img {
+    padding: 10px;
+}
+
+.social-icons img:hover {
+    transform: scale(.75);
 }
